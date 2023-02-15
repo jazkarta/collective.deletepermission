@@ -38,7 +38,7 @@ long_description = (
 setup(name='collective.deletepermission',
       version=version,
       description="Implements a new permission 'Delete portal content'",
-      long_description=long_description.decode('utf-8'),
+      long_description=long_description,
 
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
