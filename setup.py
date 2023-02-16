@@ -65,7 +65,6 @@ setup(name='collective.deletepermission',
       install_requires=[
         'AccessControl',
         'Acquisition',
-        'Products.Archetypes',
         'Products.CMFCore',
         'Products.CMFPlone',
         'Products.GenericSetup',
