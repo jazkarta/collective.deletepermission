@@ -1,3 +1,4 @@
+from past.builtins import basestring
 from AccessControl import Unauthorized
 from AccessControl import getSecurityManager
 from Products.CMFCore.PortalFolder import PortalFolderBase as PortalFolder
