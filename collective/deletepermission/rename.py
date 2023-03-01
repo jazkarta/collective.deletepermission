@@ -9,7 +9,10 @@ from App.Dialogs import MessageDialog
 from html import escape
 from OFS.CopySupport import absattr
 from OFS.CopySupport import CopyError
-from OFS.CopySupport import eNotSupported
+try:
+    from OFS.CopySupport import eNotSupported
+except ImportError:
+    eNotSupported = 'Not Supported %s'
 from OFS.event import ObjectWillBeMovedEvent
 from webdav.Lockable import ResourceLockedError
 from ZODB.POSException import ConflictError
